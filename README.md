@@ -1,16 +1,16 @@
 <h1 align="center">Kubernetes Documents & Configuration ✨</h1>
 
 
-### ✨Things included in this Repository/Project:
-#### 1. Table list
-   - Browse contents to the main directory
-   - Updating
-   - Updating
+## I. Things included in this Repository/Project:
+- Table list:
+  - Browse contents to the main directory
+  - Updating
 
-#### 2. Output, values configurations
-#### 3. Makefile
+- Output, values configurations
 
+- Makefile
 
+## II. Details:
 - Browse contents
 <!-- table 1 -->  
 > Table 1. 
@@ -29,7 +29,7 @@
 
 
 <!-- table 2 -->  
-> Table 2.
+> Table 2:
 <div align="center">
 
 | Number | Descripton | Content |
@@ -43,21 +43,4 @@
 </div>
 
 
-
-<!-- table 3 -->  
-3. 
-<div align="center">
-
-| Number | Descripton | Content |
-| :---: | :---: | :---: |
-| 1 | *Updating...* | [*Updating...*]()
-| 2 | *Updating...* | [*Updating...*]()
-| 3 | *Updating...* | [*Updating...*]()
-
-*<ins>Table 3:</ins>*
-
-</div>
-
-
-
-### 1. Output / values
+- output, Values
