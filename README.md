@@ -4,7 +4,7 @@
 ## I. Things included in this Repository/Project:
 - Table list:
   - Browse contents to the main directory
-  - Updating
+  - Sh, Session enforce
 
 - Output, values configurations
 
@@ -43,4 +43,4 @@
 </div>
 
 
-- output, Values
+- Output, values
