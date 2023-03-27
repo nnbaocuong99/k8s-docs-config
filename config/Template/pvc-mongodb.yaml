@@ -1,0 +1,13 @@
+apiVersion: vx.x
+kind:
+metadata:
+  name:
+  namespace:
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage:
+  storageClassName: 
+  volumeMode: 
