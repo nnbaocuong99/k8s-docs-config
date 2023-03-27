@@ -1,0 +1,161 @@
+# Source: my-nextpay-tech/charts/services/charts/my-nextpay-tech-chat/templates/configmap.yaml
+apiVersion:
+kind:  ConfigMap
+metadata:
+  name:
+  labels:
+    helm.sh/chart:
+    app.kubernetes.io/managed-by:
+    app.kubernetes.io/name:
+    app.kubernetes.io/instance:
+  
+data:
+  ELASTIC_APM_ENABLED: "true"
+
+
+# Source: my-nextpay-tech/charts/services/charts/rethink-db/templates/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name:
+  labels:
+    helm.sh/chart: 
+    app.kubernetes.io/managed-by:
+    app.kubernetes.io/name:
+    app.kubernetes.io/instance: 
+  
+data:
+  ELASTIC_APM_ENABLED: "true"
+
+
+# Source: my-nextpay-tech/charts/services/charts/tags-api/templates/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: 
+  labels:
+    helm.sh/chart: 
+    app.kubernetes.io/managed-by: 
+    app.kubernetes.io/name: 
+    app.kubernetes.io/instance:
+  
+data:
+  ELASTIC_APM_ENABLED: "true"
+
+
+# Source: my-nextpay-tech/charts/services/charts/my-nextpay-tech-chat/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 
+  labels:
+    helm.sh/chart: 
+    app.kubernetes.io/managed-by: 
+    app.kubernetes.io/name: 
+    app.kubernetes.io/instance: 
+  
+spec:
+  replicas: 1
+  revisionHistoryLimit: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: 
+      app.kubernetes.io/instance: 
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: 
+        app.kubernetes.io/instance: 
+    spec:
+      imagePullSecrets:
+        - name: 
+      restartPolicy:
+      containers:
+        - name:
+          image: "hub.saobang.vn/nextpay/my-nextpay-tech/:1.16.0"
+          imagePullPolicy:
+          envFrom:
+            - configMapRef:
+                name:
+          volumeMounts:
+          resources:
+            null
+      volumes:
+---
+# Source: my-nextpay-tech/charts/services/charts/rethink-db/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:
+  labels:
+    helm.sh/chart: 
+    app.kubernetes.io/managed-by:
+    app.kubernetes.io/name:
+    app.kubernetes.io/instance:
+  
+spec:
+  replicas: 1
+  revisionHistoryLimit: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name:
+      app.kubernetes.io/instance:
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name:
+        app.kubernetes.io/instance:
+    spec:
+      imagePullSecrets:
+        - name:
+      restartPolicy:
+      containers:
+        - name:
+          image: ""
+          imagePullPolicy:
+          envFrom:
+            - configMapRef:
+                name:
+          volumeMounts:
+          resources:
+            null
+      volumes:
+---
+# Source: my-nextpay-tech/charts/services/charts/tags-api/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:
+  labels:
+    helm.sh/chart:
+    app.kubernetes.io/managed-by:
+    app.kubernetes.io/name:
+    app.kubernetes.io/instance:
+  
+spec:
+  replicas: 1
+  revisionHistoryLimit: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name:
+      app.kubernetes.io/instance:
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name:
+        app.kubernetes.io/instance:
+    spec:
+      imagePullSecrets:
+        - name:
+      restartPolicy:
+      containers:
+        - name:
+          image: ""
+          imagePullPolicy:
+          envFrom:
+            - configMapRef:
+                name:
+          volumeMounts:
+          resources:
+            null
+      volumes:
