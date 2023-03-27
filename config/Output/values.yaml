@@ -1,11 +1,11 @@
-nameOverride: my-nextpay-tech
-fullnameOverride: my-nextpay-tech
+nameOverride:
+fullnameOverride:
 services:
   enabled: true
   global:
-    imagePullSecrets: nextpay-harbor
+    imagePullSecrets:
     image:
-      repository: hub.saobang.vn/nextpay/my-nextpay-tech
+      repository:
     elasticApm:      
       ELASTIC_APM_ENABLED: true
   backend-project:
@@ -50,8 +50,8 @@ mariadb:
   enabled: false
 mongodb:
   enabled: false
-# mongodb-replica:
-#   enabled: false
+mongodb-replica:
+  enabled: false
 kafka:
   enabled: false
 kowl:
