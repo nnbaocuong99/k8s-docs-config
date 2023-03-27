@@ -1,0 +1,9 @@
+apiVersion: vx.x
+kind: Secret
+metadata:
+  name: my-nextpay-tech
+  namespace: my-nextpay-tech
+type: kubernetes.io/tls
+data:
+  tls.crt: XXXX-XXXX-XXXX-XXXX
+  tls.key: XXXX-XXXX-XXXX-XXXX
