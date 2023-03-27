@@ -1,0 +1,8 @@
+apiVersion: vx.x
+data:
+  .dockerconfigjson: token_here
+kind: 
+metadata:
+  name:
+  namespace: 
+type: kubernetes.io/dockerconfigjson
