@@ -42,3 +42,5 @@
 
 
 2. Output, values
+- [Output](https://github.com/nnbaocuong99/k8s-docs-config/blob/main/config/Output/output.yaml)
+- [values](https://github.com/nnbaocuong99/k8s-docs-config/blob/main/config/Output/values.yaml)
