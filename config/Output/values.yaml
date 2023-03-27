@@ -1,0 +1,58 @@
+nameOverride: my-nextpay-tech
+fullnameOverride: my-nextpay-tech
+services:
+  enabled: true
+  global:
+    imagePullSecrets: nextpay-harbor
+    image:
+      repository: hub.saobang.vn/nextpay/my-nextpay-tech
+    elasticApm:      
+      ELASTIC_APM_ENABLED: true
+  backend-project:
+    enabled: false
+  frontend-project:
+    enabled: false
+  kafka-event-manager:
+    enabled: false
+  my-nextpay-tech-chat:
+    enabled: false
+  rethink-db:
+    enabled: false
+  tags-api:
+    enabled: false
+  media-server:
+    enabled: false
+  backlog-services:
+    enabled: false
+  fe-storage-services:
+    enabled: false
+  redis:
+    enabled: false
+  telegram-bot:
+    enabled: false
+  history-service:
+    enabled: false
+  feeds:
+    enabled: false
+  incident:
+    enabled: false
+  socket-noti-server:
+    enabled: false
+  response-team-service:
+    enabled: false
+  incident-tracking:
+    enabled: false
+  chat-service:
+    enabled: false
+  demo-integrated-service:
+    enabled: false
+mariadb:
+  enabled: false
+mongodb:
+  enabled: false
+# mongodb-replica:
+#   enabled: false
+kafka:
+  enabled: false
+kowl:
+  enabled: false
