@@ -8,7 +8,6 @@
 
 - Output, values configurations
 
-- Makefile
 
 ## II. Details:
 - Browse contents
@@ -34,9 +33,8 @@
 
 | Number | Descripton | Content |
 | :---: | :---: | :---: |
-| 1 | *Updating...* | [*Updating...*]()
-| 2 | *Updating...* | [*Updating...*]()
-| 3 | *Updating...* | [*Updating...*]()
+| 1 | Sh | [*Updating...*]()
+| 2 | Makefile | [*Updating...*]()
 
 *<ins>Table 2:</ins>*
 
