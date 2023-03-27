@@ -33,8 +33,8 @@
 
 | Number | Descripton | Content |
 | :---: | :---: | :---: |
-| 1 | Sh | [*Updating...*]()
-| 2 | Makefile | [*Updating...*]()
+| 1 | Sh | [Click here](https://github.com/nnbaocuong99/k8s-docs-config/tree/main/1.2/Sh)
+| 2 | Makefile | [CLick here](ttps://github.com/nnbaocuong99/k8s-docs-config/tree/main/1.2/Makefile)
 
 *<ins>Table 2:</ins>*
 
