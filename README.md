@@ -2,17 +2,18 @@
 
 
 ## I. Things included in this Repository/Project:
-- Table list:
-  - Browse contents to the main directory
-  - Sh, Session enforce
+1. Table list:
+   - Browse contents to the main directory
+   - Sh, Session enforce
 
-- Output, values configurations
+2. Output, values configurations
 
 
 ## II. Details:
-- Browse contents
+1. Table list:
+
 <!-- table 1 -->  
-> Table 1. 
+
 <div align="center">
 
 | Number | Descripton | Content |
@@ -21,14 +22,13 @@
 | 2 | config, template config | [Click here](https://github.com/nnbaocuong99/k8s-docs-config/tree/main/config)
 | 3 | CI/CD settings, Pipelines, Jobs, Tags | [Click here](https://github.com/nnbaocuong99/k8s-docs-config/tree/main/.gitlab-ci.yml)
 
-*<ins>Table 1:</ins>*
+*Table 1: <ins>Browse Content</ins>*
 
 </div>
 
 
 
 <!-- table 2 -->  
-> Table 2:
 <div align="center">
 
 | Number | Descripton | Content |
@@ -36,9 +36,9 @@
 | 1 | Sh | [Click here](https://github.com/nnbaocuong99/k8s-docs-config/tree/main/1.2/Sh)
 | 2 | Makefile | [CLick here](https://github.com/nnbaocuong99/k8s-docs-config/blob/main/1.2/Makefile)
 
-*<ins>Table 2:</ins>*
+*Table 2: <ins>Sh, Session enforce</ins>*
 
 </div>
 
 
-- Output, values
+2. Output, values
